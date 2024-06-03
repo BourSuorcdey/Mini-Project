@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign In</title>
+    <!-- link tailwind -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="pl-20 bg-white max-md:pl-5">
+        <div class="flex gap-5 max-md:flex-col max-md:gap-0">
+          <div class="flex flex-col w-[38%] max-md:ml-0 max-md:w-full">
+            <div
+              class="flex flex-col self-stretch py-0.5 my-auto font-medium max-md:mt-10"
+            >
+              <div class="text-3xl text-black">Welcome back!</div>
+              <div class="mt-3 mr-9 text-base text-black max-md:mr-2.5">
+                Enter your Credentials to access your account
+              </div>
+              <div class="mt-16 text-sm text-black max-md:mt-10">Email address</div>
+              <div>
+                <input type="email" id="email" class="justify-center items-start px-2.5 py-2.5 text-xs rounded-xl border border-solid border-zinc-300 text-zinc-300 max-md:pr-5">
+              </div>
+              <div class="flex gap-5 justify-between mt-7">
+                <div class="text-sm text-black">Password</div>
+                <div class="text-xs text-blue-900"><a href="../pages/sign-up.html">forgot password</a></div>
+              </div>
+              <div>
+                <input type="password" id="password" class="justify-center items-start px-2.5 py-2.5 text-xs rounded-xl border border-solid border-zinc-300 text-zinc-300 max-md:pr-5">
+              </div>
+              <div class="flex gap-1.5 self-start mt-7 text-xs text-black">
+                <div
+                  class="pr-1.5">
+                  <input type="checkbox">
+                </div>
+                <div class="flex-auto">Remember for 30 days</div>
+              </div>
+              <div
+                class="justify-center items-center py-2.5 mt-6 pl-[46%] text-sm font-bold text-white whitespace-nowrap bg-indigo-500 hover:bg-indigo-700 rounded-xl border border-indigo-500 border-solid max-md:px-5"
+              >
+                Login
+              </div>
+              <div
+                class="justify-center self-center px-1 mt-10 text-xs text-black whitespace-nowrap bg-white"
+              >
+                Or
+              </div>
+              <div
+                class="flex gap-5 justify-between mt-24 text-xs text-black max-md:mt-10"
+              >
+                <div
+                  class="flex flex-col justify-center px-5 py-1 rounded-xl border border-solid border-zinc-300"
+                >
+                  <div class="flex gap-2.5">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/975b389c18d8e580c9bd77b44fbe21400bf7d619c429e9e5318101b7821ad974?"
+                      class="shrink-0 w-6 aspect-square"
+                    />
+                    <div class="my-auto"><a href="https://www.google.co.uk/">Sign in with Google</a></div>
+                  </div>
+                </div>
+                <div
+                  class="flex flex-col justify-center px-5 py-1 rounded-xl border border-solid border-zinc-300">
+                  <div class="flex gap-2.5 justify-center">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/b8b8a8727d4f269d9ab5f8d58f0b2f84594b9a93741ec5d099350bd721f1bc4e?"
+                      class="shrink-0 w-6 aspect-square"
+                    />
+                    <div class="my-auto"><a href="https://support.apple.com/en-ca/guide/iphone/iph76e54c61e/ios">Sign in with Apple</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="self-center mt-7 text-sm text-blue-700">
+                <a href="../pages/sign-up.html">Don’t have an account?
+                    <span class="text-blue-700">Sign Up</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col ml-5 w-[62%] max-md:ml-0 max-md:w-full">
+            <img src="../assets/sign-up.png"
+              class="grow w-full aspect-[0.75] rounded-xl max-md:mt-10 max-md:max-w-full"
+            />
+          </div>
+        </div>
+      </div>
+
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CDN tailwind -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <!-- My JavaScript -->
+    <script src="../js/script.js"></script>
+</body>
+</html>
